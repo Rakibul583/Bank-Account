@@ -1,0 +1,49 @@
+body{
+    padding: 50px;
+}
+.name{
+    text-align: center;
+}
+.submit{
+    margin-top: 50px;
+    padding: 40px;
+    border-radius: 10px;
+    box-shadow: 5px 5px 10px;
+}
+#BankDetails{
+    display: none;
+}
+.deposit{
+    background-color: slateblue;
+}
+.withdraw{
+    background-color: lightsalmon;
+}
+.balance{
+    background-color: orange;
+   
+}
+.status{
+    border-radius: 5px;
+    padding: 10px;
+    margin: 5px;
+    color: white;
+    width: 20%;
+    float: left;
+    margin-left: 5%;
+    padding-left: 2%;
+}
+.second{
+    width: 20%;
+    float: left;
+    margin-left: 6%;
+    margin-right: 15%;
+    padding-left: 2%;
+
+
+
+    margin-top: 40px;
+    padding: 50px 50px;
+    border-radius: 5px;
+    box-shadow: 10px 5px 10px;
+}

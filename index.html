@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="">
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+    <div id="login">
+        <h1 class="name">Rakibul</h1>
+        <div class="submit">
+            <h4>Login</h4>
+            <input type="text" class="form-control" placeholder="Email" style="width: 80%;"><br><br>
+            <input type="password" class="form-control" placeholder="password" style="width: 80%;"> <br><br>
+            <button>Enter</button>
+        </div>
+    </div>
+    <div id="BankDetails">
+        <h1>BankDetails:</h1>
+        <div class="row">
+            <div class="col-md-4 deposit status">
+                <h5>Deposit</h5>
+                <h2>$ <span id="CurrentDeposit">00</span></h2>
+            </div>
+            <div class="col-md-4 withdraw status">
+                <h5>Withdraw</h5>
+                <h2>$ 00</h2>
+            </div>
+            <div class="col-md-4 balance status">
+                <h5>Balance</h5>
+                <h2>$ <span id="CurrentBalance">1240</span></h2>
+            </div>
+        </div>
+        <section>
+            <div class="second">
+                <h4>Deposit</h4>
+                <input id="DepositAmount" type="text" placeholder="$ amount you want to deposit"
+                    style="width: 100%;"><br><br>
+                <button id="addDeposit">Deposit</button>
+            </div>
+            <div class="second">
+                <h4>Withdraw</h4>
+                <input id="withdrawAmount" type="text" placeholder="$ amount you want to withdraw"
+                    style="width: 100%;"><br><br>
+                <button id="addWithdraw">Withdraw</button>
+            </div>
+        </section>
+    </div>
+
+  <script src="java.js"></script>
+</body>
+
+</html>
